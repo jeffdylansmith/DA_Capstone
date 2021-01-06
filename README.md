@@ -11,5 +11,5 @@ I wanted to examine the relationship between weather and traffic accidents to se
 Are there any aspects of the relationship between weather and traffic accident frequency / severity that could be used as predictive indicators?  Do these relationships hold up during the time of covid?  
 
 ## Data Sources
-I purchased a csv data set of [Nashville weather](https://https://openweathermap.org) since 1990 and [Davidson County accidents](https://data.nashville.gov/Police/Traffic-Accidents/6v6w-hpcw) are available on the Metro public data site.
+I purchased a csv data set of [Nashville weather](https://openweathermap.org) since 1990 and [Davidson County accidents](https://data.nashville.gov/Police/Traffic-Accidents/6v6w-hpcw) are available on the Metro public data site.
 
