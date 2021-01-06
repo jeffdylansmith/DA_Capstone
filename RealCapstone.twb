@@ -3595,8 +3595,8 @@ order by date_part(&apos;year&apos;, a.dateandtime)</relation>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='4000' minheight='4000' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='54' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='53' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='56' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='55' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='7875' id='37' w='14100' x='64000' y='-375'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontsize='16'>Totals:</run>
@@ -3978,8 +3978,8 @@ order by date_part(&apos;year&apos;, a.dateandtime)</relation>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='14' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='13' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='16' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='15' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8625' id='5' w='39900' x='27600' y='3375'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='26'>SpotLight: October</run>
@@ -4068,7 +4068,7 @@ order by date_part(&apos;year&apos;, a.dateandtime)</relation>
                       <story-point caption='Title' captured-sheet='' id='1' />
                       <story-point caption='Question' captured-sheet='' id='3' />
                       <story-point caption='Dashboard' captured-sheet='Dashboard 1' id='4'>
-                        <currentDeltas>
+                        <capturedDeltas>
                           <worksheet name='rainPerDay'>
                             <selection-collection />
                           </worksheet>
@@ -4092,51 +4092,27 @@ order by date_part(&apos;year&apos;, a.dateandtime)</relation>
                               </tuple-selection>
                             </selection-collection>
                           </worksheet>
-                        </currentDeltas>
-                        <capturedDeltas />
+                        </capturedDeltas>
                       </story-point>
                       <story-point caption='October' captured-sheet='Dashboard 2' id='6'>
                         <capturedDeltas>
                           <worksheet name='October'>
                             <filter class='categorical' column='[federated.15mh7rv18e37611ajysxq0nr1pts].[Action (year (Custom SQL Query1))]'>
-                              <groupfilter function='member' level='[year (Custom SQL Query1)]' member='&quot;2016&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                              <groupfilter function='level-members' level='[year (Custom SQL Query1)]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
                             </filter>
                           </worksheet>
                           <worksheet name='OctoberInjuries'>
                             <filter class='categorical' column='[federated.15mh7rv18e37611ajysxq0nr1pts].[Action (year (Custom SQL Query1))]'>
-                              <groupfilter function='member' level='[year (Custom SQL Query1)]' member='&quot;2016&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                              <groupfilter function='level-members' level='[year (Custom SQL Query1)]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
                             </filter>
                           </worksheet>
                           <worksheet name='totalbymonth'>
                             <filter class='categorical' column='[federated.15mh7rv18e37611ajysxq0nr1pts].[Action (year (Custom SQL Query1))]'>
-                              <groupfilter function='member' level='[year (Custom SQL Query1)]' member='&quot;2016&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                              <groupfilter function='level-members' level='[year (Custom SQL Query1)]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
                             </filter>
                           </worksheet>
                           <worksheet name='totalbyyear'>
-                            <selection-collection>
-                              <tuple-selection>
-                                <tuple-reference>
-                                  <tuple-descriptor>
-                                    <pane-descriptor>
-                                      <x-fields>
-                                        <field>[federated.15mh7rv18e37611ajysxq0nr1pts].[none:year (Custom SQL Query1):nk]</field>
-                                      </x-fields>
-                                      <y-fields>
-                                        <field>[federated.15mh7rv18e37611ajysxq0nr1pts].[sum:totalaccidents:qk]</field>
-                                      </y-fields>
-                                    </pane-descriptor>
-                                    <columns>
-                                      <field>[federated.15mh7rv18e37611ajysxq0nr1pts].[none:year (Custom SQL Query1):nk]</field>
-                                      <field>[federated.15mh7rv18e37611ajysxq0nr1pts].[sum:totalaccidents:qk]</field>
-                                    </columns>
-                                  </tuple-descriptor>
-                                  <tuple>
-                                    <value>&quot;2016&quot;</value>
-                                    <value>34433</value>
-                                  </tuple>
-                                </tuple-reference>
-                              </tuple-selection>
-                            </selection-collection>
+                            <selection-collection />
                           </worksheet>
                         </capturedDeltas>
                       </story-point>
